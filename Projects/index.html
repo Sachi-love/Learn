@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Image and Video</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            margin: 20px;
+        }
+        img, video {
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        hr {
+            margin: 40px auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is clickable image and video</h2>
+
+    <!-- Facebook Image Link -->
+    <a href="https://www.facebook.com/" target="_blank">
+        <span>Facebook</span>
+        <img src="/Image/facebook.png" alt="Facebook Logo" width="300">
+    </a>
+
+    <hr>
+
+    <!-- Instagram Video Link -->
+    <a href="https://www.instagram.com/reel/DGSN50MTOO_/?utm_source=ig_web_copy_link" target="_blank">
+        <span>Instagram Reel</span>
+        <video src="/Assets/video.mp4" height="500" autoplay controls loop muted></video>
+    </a>
+</body>
+</html>
